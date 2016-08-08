@@ -1,0 +1,510 @@
+@media screen and (min-width:866px)
+{
+		#text,#cache
+	{
+		
+		height:100px;
+		font-size: 6em;
+
+	}
+	.lettres
+	{
+		position: relative;
+		top:100px;
+	}
+	#container
+	{
+		margin-left: 10%;
+		margin-top: 20%;
+		width:80%;
+		height:200px;
+		background-color: white;
+		text-align: center;
+	}
+	#cache
+	{
+		position: relative;
+		top:0px;
+		background-color: white;
+		z-index: 2;
+		border-top: 1px solid black;
+	}
+}
+@media screen and (min-width:601px) and (max-width:865px)
+{
+		#text,#cache
+	{
+		
+		height:100px;
+		font-size: 4em;
+
+	}
+	.lettres
+	{
+		position: relative;
+		top:100px;
+	}
+	#container
+	{
+		margin-left: 10%;
+		margin-top: 20%;
+		width:80%;
+		height:200px;
+		background-color: white;
+		text-align: center;
+	}
+	#cache
+	{
+		position: relative;
+		top:-10px;
+		background-color: white;
+		z-index: 2;
+		border-top: 1px solid black;
+	}
+}
+@media screen and (max-width:600px)
+{
+		#text,#cache
+	{
+		
+		height:100px;
+		font-size: 2em;
+
+	}
+	.lettres
+	{
+		position: relative;
+		top:50px;
+	}
+	#container
+	{
+		margin-left: 10%;
+		margin-top: 30%;
+		width:80%;
+		height:200px;
+		background-color: white;
+		text-align: center;
+	}
+	#cache
+	{
+		position: relative;
+		top:-40px;
+		background-color: white;
+		z-index: 2;
+		border-top: 1px solid black;
+	}
+}
+
+
+
+
+
+
+
+
+.lettre1
+{
+	-ms-animation-name: animlettre;
+	-ms-animation-duration: 4s;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
+.lettre2
+{
+	-ms-animation-name: animlettre;
+	-ms-animation-duration: 4s;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-duration: 4s;
+	animation-delay: 200ms;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
+.lettre3
+{
+	-ms-animation-name: animlettre;
+	-ms-animation-duration: 4s;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-duration: 4s;
+	animation-delay: 600ms;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
+.lettre4
+{
+	-ms-animation-name: animlettre;
+	-ms-animation-duration: 4s;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-duration: 4s;
+	animation-delay: 800ms;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
+.lettre5
+{
+	-ms-animation-name: animlettre;
+	-ms-animation-duration: 4s;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-duration: 4s;
+	animation-delay: 400ms;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
+.lettre6
+{
+	-ms-animation-name: animlettre;
+	-ms-animation-duration: 4s;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-duration: 4s;
+	animation-delay: 1200ms;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
+.lettre7
+{-ms-animation-name: animlettre;
+	-ms-animation-duration: 4s;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-duration: 4s;
+	animation-delay: 1400ms;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
+.lettre8
+{-ms-animation-name: animlettre;
+	-ms-animation-duration: 4s;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-duration: 4s;
+	animation-delay: 1500ms;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
+.lettre9
+{-ms-animation-name: animlettre;
+	-ms-animation-duration: 4s;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-duration: 4s;
+	animation-delay: 1800ms;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
+
+
+@-webkit-keyframes animlettre
+{
+	0%
+	{
+		top: 100px;
+	}
+	10%
+	{
+		top: 90px;
+	}
+	20%
+	{
+		top: 80px;
+	}
+	30%
+	{
+		top: 70px;
+	}
+	40%
+	{
+		top: 60px;
+	}
+	50%
+	{
+		top: 50px;
+	}
+	60%
+	{
+		top: 40px;
+	}
+	70%
+	{
+		
+		top: 25px;
+	}
+	80%
+	{
+		
+		top: 20px;
+	}
+	90%
+	{
+		top: 0px;
+
+	}
+	95%
+	{
+		top:-10px;
+		
+	}
+	100%
+	{
+		top: -25px;
+		
+		
+	}
+}
+@-moz-keyframes animlettre
+{
+	0%
+	{
+		top: 100px;
+	}
+	10%
+	{
+		top: 90px;
+	}
+	20%
+	{
+		top: 80px;
+	}
+	30%
+	{
+		top: 70px;
+	}
+	40%
+	{
+		top: 60px;
+	}
+	50%
+	{
+		top: 50px;
+	}
+	60%
+	{
+		top: 40px;
+	}
+	70%
+	{
+		
+		top: 25px;
+	}
+	80%
+	{
+		
+		top: 20px;
+	}
+	90%
+	{
+		top: 0px;
+
+	}
+	95%
+	{
+		top:-10px;
+		
+	}
+	100%
+	{
+		top: -25px;
+		
+		
+	}
+}
+	@-o-keyframes animlettre
+{
+	0%
+	{
+		top: 100px;
+	}
+	10%
+	{
+		top: 90px;
+	}
+	20%
+	{
+		top: 80px;
+	}
+	30%
+	{
+		top: 70px;
+	}
+	40%
+	{
+		top: 60px;
+	}
+	50%
+	{
+		top: 50px;
+	}
+	60%
+	{
+		top: 40px;
+	}
+	70%
+	{
+		
+		top: 25px;
+	}
+	80%
+	{
+		
+		top: 20px;
+	}
+	90%
+	{
+		top: 0px;
+
+	}
+	95%
+	{
+		top:-10px;
+		
+	}
+	100%
+	{
+		top: -25px;
+		
+		
+	}
+}
+@keyframes animlettre
+{
+	0%
+	{
+		top: 100px;
+	}
+	10%
+	{
+		top: 90px;
+	}
+	20%
+	{
+		top: 80px;
+	}
+	30%
+	{
+		top: 70px;
+	}
+	40%
+	{
+		top: 60px;
+	}
+	50%
+	{
+		top: 50px;
+	}
+	60%
+	{
+		top: 40px;
+	}
+	70%
+	{
+		
+		top: 25px;
+	}
+	80%
+	{
+		
+		top: 20px;
+	}
+	90%
+	{
+		top: 0px;
+
+	}
+	95%
+	{
+		top:-10px;
+		
+	}
+	100%
+	{
+		top: -25px;
+		
+		
+	}
+}
