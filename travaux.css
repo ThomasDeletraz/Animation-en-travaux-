@@ -1,18 +1,16 @@
-@media screen and (min-width:866px)
-{
-		#text,#cache
+	#text,#cache
 	{
 		
 		height:100px;
-		font-size: 6em;
 
 	}
-	.lettres
+
+.lettres
 	{
 		position: relative;
-		top:100px;
 	}
-	#container
+
+#container
 	{
 		margin-left: 10%;
 		margin-top: 20%;
@@ -21,13 +19,31 @@
 		background-color: white;
 		text-align: center;
 	}
-	#cache
+#cache
 	{
 		position: relative;
-		top:0px;
 		background-color: white;
 		z-index: 2;
 		border-top: 1px solid black;
+	}
+
+@media screen and (min-width:866px)
+{
+		#text,#cache
+	{
+		
+		font-size: 6em;
+
+	}
+	.lettres
+	{
+		top:100px;
+	}
+	
+	#cache
+	{
+		top:0px;
+		
 	}
 }
 @media screen and (min-width:601px) and (max-width:865px)
@@ -41,25 +57,12 @@
 	}
 	.lettres
 	{
-		position: relative;
 		top:100px;
 	}
-	#container
-	{
-		margin-left: 10%;
-		margin-top: 20%;
-		width:80%;
-		height:200px;
-		background-color: white;
-		text-align: center;
-	}
+
 	#cache
 	{
-		position: relative;
 		top:-10px;
-		background-color: white;
-		z-index: 2;
-		border-top: 1px solid black;
 	}
 }
 @media screen and (max-width:600px)
@@ -73,210 +76,100 @@
 	}
 	.lettres
 	{
-		position: relative;
 		top:50px;
 	}
-	#container
-	{
-		margin-left: 10%;
-		margin-top: 30%;
-		width:80%;
-		height:200px;
-		background-color: white;
-		text-align: center;
-	}
+	
 	#cache
 	{
-		position: relative;
 		top:-40px;
-		background-color: white;
-		z-index: 2;
-		border-top: 1px solid black;
 	}
 }
 
-
-
-
-
-
-
+.lettres{
+	-ms-animation-name: animlettre;
+	-ms-animation-direction: alternate;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-name: animlettre;
+	-o-animation-direction: alternate;
+	-o-animation-iteration-count:infinite;
+	-moz-animation-name: animlettre;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-name: animlettre;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+}
 
 .lettre1
 {
-	-ms-animation-name: animlettre;
 	-ms-animation-duration: 4s;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count:infinite;
-	-o-animation-name: animlettre;
 	-o-animation-duration: 4s;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count:infinite;
-	-moz-animation-name: animlettre;
 	-moz-animation-duration: 4s;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-name: animlettre;
 	-webkit-animation-duration: 4s;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count:infinite;
 }
 .lettre2
 {
-	-ms-animation-name: animlettre;
 	-ms-animation-duration: 4s;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count:infinite;
-	-o-animation-name: animlettre;
 	-o-animation-duration: 4s;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count:infinite;
-	-moz-animation-name: animlettre;
 	-moz-animation-duration: 4s;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-name: animlettre;
 	-webkit-animation-duration: 4s;
 	animation-delay: 200ms;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count:infinite;
 }
 .lettre3
 {
-	-ms-animation-name: animlettre;
 	-ms-animation-duration: 4s;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count:infinite;
-	-o-animation-name: animlettre;
 	-o-animation-duration: 4s;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count:infinite;
-	-moz-animation-name: animlettre;
 	-moz-animation-duration: 4s;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-name: animlettre;
 	-webkit-animation-duration: 4s;
 	animation-delay: 600ms;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count:infinite;
 }
 .lettre4
 {
-	-ms-animation-name: animlettre;
 	-ms-animation-duration: 4s;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count:infinite;
-	-o-animation-name: animlettre;
 	-o-animation-duration: 4s;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count:infinite;
-	-moz-animation-name: animlettre;
 	-moz-animation-duration: 4s;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-name: animlettre;
 	-webkit-animation-duration: 4s;
 	animation-delay: 800ms;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count:infinite;
 }
 .lettre5
 {
-	-ms-animation-name: animlettre;
 	-ms-animation-duration: 4s;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count:infinite;
-	-o-animation-name: animlettre;
 	-o-animation-duration: 4s;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count:infinite;
-	-moz-animation-name: animlettre;
 	-moz-animation-duration: 4s;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-name: animlettre;
 	-webkit-animation-duration: 4s;
 	animation-delay: 400ms;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count:infinite;
 }
 .lettre6
 {
-	-ms-animation-name: animlettre;
 	-ms-animation-duration: 4s;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count:infinite;
-	-o-animation-name: animlettre;
 	-o-animation-duration: 4s;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count:infinite;
-	-moz-animation-name: animlettre;
 	-moz-animation-duration: 4s;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-name: animlettre;
 	-webkit-animation-duration: 4s;
 	animation-delay: 1200ms;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count:infinite;
 }
 .lettre7
-{-ms-animation-name: animlettre;
+{
 	-ms-animation-duration: 4s;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count:infinite;
-	-o-animation-name: animlettre;
 	-o-animation-duration: 4s;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count:infinite;
-	-moz-animation-name: animlettre;
 	-moz-animation-duration: 4s;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-name: animlettre;
 	-webkit-animation-duration: 4s;
 	animation-delay: 1400ms;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count:infinite;
 }
 .lettre8
-{-ms-animation-name: animlettre;
+{
 	-ms-animation-duration: 4s;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count:infinite;
-	-o-animation-name: animlettre;
 	-o-animation-duration: 4s;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count:infinite;
-	-moz-animation-name: animlettre;
 	-moz-animation-duration: 4s;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-name: animlettre;
 	-webkit-animation-duration: 4s;
 	animation-delay: 1500ms;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count:infinite;
 }
 .lettre9
-{-ms-animation-name: animlettre;
+{
 	-ms-animation-duration: 4s;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count:infinite;
-	-o-animation-name: animlettre;
 	-o-animation-duration: 4s;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count:infinite;
-	-moz-animation-name: animlettre;
 	-moz-animation-duration: 4s;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count:infinite;
-	-webkit-animation-name: animlettre;
 	-webkit-animation-duration: 4s;
 	animation-delay: 1800ms;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count:infinite;
 }
 
 
